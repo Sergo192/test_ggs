@@ -2,7 +2,9 @@
 
 - Create directory test1
 
+```console
 sergiy@TheDivision:~/Desktop/test$ mkdir test1
+```
 
 - Create file test1.txt inside the test1 directory.
 
