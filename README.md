@@ -8,8 +8,10 @@ sergiy@TheDivision:~/Desktop/test$ mkdir test1
 
 - Create file test1.txt inside the test1 directory.
 
+```console
 sergiy@TheDivision:~/Desktop/test$ cd test1/
 sergiy@TheDivision:~/Desktop/test/test1$ touch test1.txt
+```
 
 -   Create copy of folder test1 with name test2.
   
