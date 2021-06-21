@@ -104,6 +104,11 @@ sergiy@TheDivision:~/Desktop/gitrep/test_ggs$ tail -n3 test.txt
 
 -  Hom many uniq IP addresses accessed the website ? 
 
+```console
+sergiy@TheDivision:~/Desktop/gitrep/test_ggs$ awk '{print $1}' test.txt | sort -u > unique.txt
+sergiy@TheDivision:~/Desktop/gitrep/test_ggs$ wc -l unique.txt 
+64 unique.txt
+```
 
 -  IP address with most requests.
 
